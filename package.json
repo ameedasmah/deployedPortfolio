@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://dhaval1403.github.io/React-Portfolio-Template/",
+  "homepage": "https://ameedasmah.github.io/deployedPortfolio/",
   "dependencies": {
     "@material-ui/core": "^4.6.1",
     "@material-ui/icons": "^4.5.1",
