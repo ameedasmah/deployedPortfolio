@@ -5,6 +5,7 @@ import ProjectCardList from "./components/ProjectCardList/ProjectCardList";
 import Experience from "./components/Experience/Experience";
 import Skill from "./components/Skill/Skill";
 import ContactForm from "./components/Contact/Contact";
+import Resume from './components/resume/Resume.jsx'
 import "./App.css";
 import Section from "./components/Section/Section.component";
 
@@ -27,6 +28,9 @@ class App extends Component {
         </Section>
         <Section>
           <ContactForm />
+        </Section>
+        <Section>
+          <Resume />
         </Section>
       </React.Fragment>
     );

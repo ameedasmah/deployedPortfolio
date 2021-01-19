@@ -8,14 +8,15 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
 import WorkRoundedIcon from '@material-ui/icons/WorkRounded';
 import QuestionAnswerRoundedIcon from '@material-ui/icons/QuestionAnswerRounded';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import Scroll,{ animateScroll as scroll} from 'react-scroll'
+import Scroll, { animateScroll as scroll } from 'react-scroll'
 import './Navigation.css';
 
 function TabPanel(props) {
 	const { children, value, index, ...other } = props;
-	
+
 	return (
 		<Typography
 			component='div'
@@ -53,42 +54,42 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ScrollableTabsButtonForce() {
 	const classes = useStyles();
-	const [ value, setValue ] = React.useState(0);
-	const [tabTypes,setTabTypes] =React.useState(['standard',true])
-	
+	const [value, setValue] = React.useState(0);
+	const [tabTypes, setTabTypes] = React.useState(['standard', true])
+
 	const handleChange = (event, newValue) => {
 		setValue(newValue);
 	};
-	
+
 	React.useLayoutEffect(() => {
 		function updateSize() {
-			if(window.innerWidth>500){
-				setTabTypes(['standard',true])
-			}else{
-				setTabTypes(['scrollable',false])
+			if (window.innerWidth > 500) {
+				setTabTypes(['standard', true])
+			} else {
+				setTabTypes(['scrollable', false])
 			}
 		}
 		window.addEventListener('resize', updateSize);
 		updateSize();
 		return () => window.removeEventListener('resize', updateSize);
 	}, []);
-	
-/* var Element = Scroll.Element; */
-var scroller = Scroll.scroller;
- 
-// Somewhere else, even another file
 
-	const scrollFunc=(e)=>{
-		if(e==='about-me'){
+	/* var Element = Scroll.Element; */
+	var scroller = Scroll.scroller;
+
+	// Somewhere else, even another file
+
+	const scrollFunc = (e) => {
+		if (e === 'about-me') {
 			scroll.scrollToTop()
-		}else{
+		} else {
 
 			scroller.scrollTo(e, {
 				duration: 800,
 				delay: 0,
 				offset: -200,
 				smooth: 'easeInOutQuart'
-			  })
+			})
 		}
 	}
 	return (
@@ -104,11 +105,12 @@ var scroller = Scroll.scroller;
 					aria-label='scrollable force tabs example'
 					centered={tabTypes[1]}
 				>
-					<Tab onClick={()=>scrollFunc("about-me")} label='About Me' icon={<PersonPinIcon />} {...a11yProps(0)} />
-					<Tab  onClick={()=>scrollFunc("projects")} label='Projects' icon={<FavoriteIcon />} {...a11yProps(1)} />
+					<Tab onClick={() => scrollFunc("about-me")} label='About Me' icon={<PersonPinIcon />} {...a11yProps(0)} />
+					<Tab onClick={() => scrollFunc("projects")} label='Projects' icon={<FavoriteIcon />} {...a11yProps(1)} />
 					{/* <Tab  onClick={()=>scrollFunc("experience")} label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(2)} /> */}
-					<Tab  onClick={()=>scrollFunc("skill")} label='Skill' icon={<FavoriteIcon />} {...a11yProps(3)} />
-					<Tab  onClick={()=>scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(4)} />
+					<Tab onClick={() => scrollFunc("skill")} label='Skill' icon={<FavoriteIcon />} {...a11yProps(3)} />
+					<Tab onClick={() => scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(4)} />
+					<Tab onClick={() => scrollFunc("resume")} label='Find Me' icon={<AssignmentIndIcon />} {...a11yProps(5)} />
 				</Tabs>
 			</AppBar>
 			<TabPanel value={value} index={0}>
@@ -124,7 +126,9 @@ var scroller = Scroll.scroller;
 				Skill
 			</TabPanel>
 			<TabPanel value={value} index={4}>
-
+			</TabPanel>
+			<TabPanel value={value} index={5}>
+				Resume
 			</TabPanel>
 		</div>
 	);

@@ -6,7 +6,10 @@ import axios from "axios";
 import { Element } from "react-scroll";
 import "./Contact.css";
 
+
 export default function ContactForm() {
+
+
   const handleSubmit = e => {
     e.preventDefault();
     const name = document.getElementById("name").value;
@@ -57,6 +60,7 @@ export default function ContactForm() {
       >
         <Element name="contact-me">Contact Me</Element>
       </Typography>
+
       <div
         style={{
           display: "flex",
@@ -119,6 +123,7 @@ export default function ContactForm() {
           </div>
         </form>
       </div>
+
     </React.Fragment>
   );
 }
