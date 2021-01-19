@@ -5,9 +5,9 @@ let project_list = [
 		title: 'Online School System',
 		des:
 			"full Stack Application using the python Django in the backend, react and redux in the frontend, it’s about manage a School system, it has adminwith all control, portal for Students/Parents, Staff, Teachers, Classes, Subjects and Exams. ",
-		tags: [ 'React', 'Redux','typeScript','Django','Firebase','Cloudenary' ],
+		tags: ['React', 'Redux', 'typeScript', 'Django', 'Firebase', 'Cloudenary'],
 		links: {
-			launch: 'https://online-clothing-store.herokuapp.com/',
+			// launch: 'https://online-clothing-store.herokuapp.com/',
 			github: 'https://github.com/ameedasmah/OnlineSchoolSystem'
 		}
 	},
@@ -17,7 +17,7 @@ let project_list = [
 		title: 'HotelCom',
 		des:
 			"A MERN-stack project that allows you use a hotels API prewiring the hotels of a specific city and country and being able to add it toBookmarks and add favorites, and in the profile page you will be able to make payments throw Stripe API, there also authentication and authorization using JWT and hashing the password using bcrybt.",
-		tags: ['nodejs',"ReactJ","Express","mongoDb","jwt","Api" ],
+		tags: ['nodejs', "ReactJ", "Express", "mongoDb", "jwt", "Api"],
 		links: {
 			launch: 'https://raptors-hotels.herokuapp.com/',
 			github: 'https://github.com/ameedasmah/green-field-project'
@@ -29,7 +29,7 @@ let project_list = [
 		title: 'Laflefne',
 		des:
 			"MERN Stack Application with JWT authentication letting users to see the places in Palestine, and to book a trip, the users who want to book the same trip can make  chat with each other. ",
-		tags: [ 'React', 'Express', 'mongoDb','Nodejs' ],
+		tags: ['React', 'Express', 'mongoDb', 'Nodejs'],
 		links: {
 			// launch: 'https://faizhameed.github.io/emailChips/',
 			github: 'https://github.com/ameedasmah/laflefne'
@@ -41,7 +41,7 @@ let project_list = [
 		title: 'WhatsappMessenger',
 		des:
 			"A MERN-Stack project that allows you to send the data and save it database using MongoAtlas,  It's appear in front-end page.In this project I used  React in front-end and I used material Ui in Design",
-		tags: [ 'React' , 'Express' , 'mongoDb' ,'CSS' ],
+		tags: ['React', 'Express', 'mongoDb', 'CSS'],
 		links: {
 			// launch: 'https://faizhameed.github.io/landing-page2/.',
 			github: 'https://github.com/ameedasmah/whatsapp_challenge'

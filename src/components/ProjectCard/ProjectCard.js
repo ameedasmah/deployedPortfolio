@@ -32,7 +32,7 @@ export default function ProjectCard({ project }) {
       project.des.length * 13 <= desRef.current.offsetWidth * 10
         ? project.des
         : project.des.slice(0, (desRef.current.offsetWidth * 10) / 15).trim() +
-            "..."
+        "..."
     );
   };
 
@@ -102,13 +102,18 @@ export default function ProjectCard({ project }) {
           {modalOpen ? (
             <InfoModal project={project} handleClose={handleClose} /> // Modal
           ) : null}
-          <IconButton
-            title="Launch App"
-            aria-label="Launch Application"
-            href={project.links.launch}
-          >
-            <Launch />
-          </IconButton>
+          {
+            project.links.launch ?
+              <IconButton
+                title="Launch App"
+                aria-label="Launch Application"
+                href={project.links.launch}
+              >
+                <Launch />
+              </IconButton> :
+              <div></div>
+          }
+
           <IconButton
             title="See Code"
             aria-label="Source Code On Github"
