@@ -29,7 +29,7 @@ export default function Resume() {
                 marginTop: "20px"
 
             }}>
-                <a href="https://www.dropbox.com/h?preview=compleate-resume+ameed.pdf" target="_blank" rel="noreferrer" >
+                <a href="https://drive.google.com/file/d/1pnoeG8oHVgmH1Q4KOsJEhVr30bBUmbXT/view?usp=sharing" target="_blank" rel="noreferrer" >
                     <AssignmentIndIcon color="primary" />
                 </a>
                 <a href="https://github.com/ameedasmah" target="_blank" rel="noreferrer" >
