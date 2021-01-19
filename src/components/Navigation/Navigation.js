@@ -6,7 +6,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
-import WorkRoundedIcon from '@material-ui/icons/WorkRounded';
+// import WorkRoundedIcon from '@material-ui/icons/WorkRounded';
 import QuestionAnswerRoundedIcon from '@material-ui/icons/QuestionAnswerRounded';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import Typography from '@material-ui/core/Typography';
