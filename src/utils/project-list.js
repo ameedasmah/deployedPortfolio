@@ -31,7 +31,7 @@ let project_list = [
 			"MERN Stack Application with JWT authentication letting users to see the places in Palestine, and to book a trip, the users who want to book the same trip can make  chat with each other. ",
 		tags: ['React', 'Express', 'mongoDb', 'Nodejs'],
 		links: {
-			// launch: 'https://faizhameed.github.io/emailChips/',
+			launch: 'https://laflefne.herokuapp.com/',
 			github: 'https://github.com/ameedasmah/laflefne'
 		}
 	},

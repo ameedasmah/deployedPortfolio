@@ -16,7 +16,7 @@ export default function Resume() {
             align="center"
             style={{
                 margin: "1rem",
-                fontSize: "19px",
+                fontSize: "35px",
                 textTransform: "uppercase",
                 fontFamily: '"Bungee", cursive'
             }}
@@ -26,7 +26,7 @@ export default function Resume() {
                 display: "flex",
                 justifyContent: "center",
                 marginBottom: "20px",
-                marginTop: "20px"
+                marginTop: "35px"
 
             }}>
                 <a href="https://drive.google.com/file/d/1pnoeG8oHVgmH1Q4KOsJEhVr30bBUmbXT/view?usp=sharing" target="_blank" rel="noreferrer" >
