@@ -50,7 +50,7 @@ export default function Resume() {
             }}>
                 <div>
                     <CallIcon color="primary" />
-                    : (+790)-599-043-747
+                    : (+970)-599-043-747
                     </div>
                 <div>
                     <EmailIcon color="primary" />
