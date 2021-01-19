@@ -30,13 +30,13 @@ export default function Resume() {
 
             }}>
                 <a href="https://drive.google.com/file/d/1pnoeG8oHVgmH1Q4KOsJEhVr30bBUmbXT/view?usp=sharing" target="_blank" rel="noreferrer" >
-                    <AssignmentIndIcon color="primary" />
+                    <AssignmentIndIcon style={{ height: "60px", width: "120px" }} color="primary" />
                 </a>
                 <a href="https://github.com/ameedasmah" target="_blank" rel="noreferrer" >
-                    <GitHubIcon color="primary" style={{ paddingLeft: "40px", paddingRight: "40px" }} />
+                    <GitHubIcon color="primary" style={{ paddingLeft: "6px", paddingRight: "6px", height: "60px", width: "120px" }} />
                 </a>
                 <a href="https://www.linkedin.com/in/ameed-asmah-1532431b7/" target="_blank" rel="noreferrer" >
-                    <LinkedInIcon color="primary" />
+                    <LinkedInIcon color="primary" style={{ height: "60px", width: "120px" }} />
                 </a>
             </div>
             <div style={{
@@ -50,7 +50,7 @@ export default function Resume() {
             }}>
                 <div>
                     <CallIcon color="primary" />
-                    : 00972599043747
+                    : (+790)-599-043-747
                     </div>
                 <div>
                     <EmailIcon color="primary" />
