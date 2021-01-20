@@ -27,11 +27,11 @@ export default function Skill({ skill }) {
             <SvgIcon
               titleAccess={skill.name}>
             </SvgIcon>
-              <img src={skill.value} 
+            <img src={skill.value}
               style={{ width: "auto", height: "100%" }}
               className="svg-icon"
               viewBox="0 0 24 24"
-              color="primary"/>
+              color="primary" />
           </div>
         ))}
       </div>
