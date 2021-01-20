@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import "./AboutMe.scss";
-import { Element } from "react-scroll";
+// import { Element } from "react-scroll";
 
 const AboutMe = () => {
   return (
