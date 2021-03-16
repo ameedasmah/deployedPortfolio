@@ -29,7 +29,7 @@ export default function Resume() {
                 marginTop: "35px"
 
             }}>
-                <a href="https://drive.google.com/file/d/1pnoeG8oHVgmH1Q4KOsJEhVr30bBUmbXT/view?usp=sharing" target="_blank" rel="noreferrer" >
+                <a href="https://drive.google.com/file/d/1aCs8PFuwuK8o64oCohhVIdQKceH5cYvn/view?usp=sharing" target="_blank" rel="noreferrer" >
                     <AssignmentIndIcon style={{ height: "60px", width: "120px" }} color="primary" />
                 </a>
                 <a href="https://github.com/ameedasmah" target="_blank" rel="noreferrer" >
@@ -46,7 +46,7 @@ export default function Resume() {
                 marginBottom: "20px",
                 fontSize: "19px",
                 // textTransform: "uppercase",
-                fontFamily: ' cursive'
+                fontFamily: "Work Sans"
             }}>
                 <div>
                     <CallIcon color="primary" />
@@ -54,7 +54,7 @@ export default function Resume() {
                     </div>
                 <div>
                     <EmailIcon color="primary" />
-                    : ameed.asmah1@gmail.com
+                     ameed.asmah1@gmail.com
                     </div>
             </div>
         </Typography>
