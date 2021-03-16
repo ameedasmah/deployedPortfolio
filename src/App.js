@@ -9,7 +9,7 @@ import Resume from './components/resume/Resume.jsx'
 import "./App.css";
 import Section from "./components/Section/Section.component";
 
-class App extends Component {
+class App extends Component { //
   render() {
     return (
       <React.Fragment>
