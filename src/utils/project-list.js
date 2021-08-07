@@ -8,7 +8,7 @@ let project_list = [
 		tags: ['Angular', 'NGRX', 'C#/.Net', 'Microsoft-SQL-Server','Unit Testing','MicroServices'],
 		links: {
 			github: 'https://github.com/ameedasmah/BAuthorPublisherMicroService',
-			github: 'https://github.com/ameedasmah/BookAPMicroService'
+			github2: 'https://github.com/ameedasmah/BookAPMicroService'
 		}
 	},
 	{

@@ -121,6 +121,13 @@ export default function ProjectCard({ project }) {
           >
             <GitHub />
           </IconButton>
+         {project.links.github2 && <IconButton
+            title="See Code"
+            aria-label="Source Code On Github"
+            href={project.links.github2}
+          >
+            <GitHub />
+          </IconButton>}
         </CardActions>
       </Card>
     </Grid>
