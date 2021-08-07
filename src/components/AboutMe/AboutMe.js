@@ -24,7 +24,7 @@ const AboutMe = () => {
         <img src="https://media.discordapp.net/attachments/762721371809382421/793101111309500466/11334138_10204951267766836_8466014935568855448_o.jpg?width=473&height=473" alt="profile_photo" className="img" />
         <h1 style={{ fontWeight: "lighter" }}>Ameed Asmah</h1>
         <div className="subtitle">
-          <h3>I am a Full stack web developer.</h3>
+          <h3>I Am A Back End Web Developer.</h3>
           <p>
             Creating Beautiful things with quality and elegance! <br />
             Experienced in React and ASP.NET
