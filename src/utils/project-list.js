@@ -1,4 +1,28 @@
 let project_list = [
+	{  /* -------------------------------- */
+		image:
+			'https://media.discordapp.net/attachments/762704922474840094/873654314428674068/unknown.png?width=1200&height=213',
+		title: 'BookAuthorPublisher',
+		des:
+			"Simple project contains three relational DB, one to many “Book-Publisher”, and Many to Many “Book-Authors”, divided to four layers, API’S, Business Layer, Data Access Layer and Contract layer. Then Divided the project to two services, the First Service for Books, and Second For Authors and Publisher using microservices Rabbit MQ.",
+		tags: ['Angular', 'NGRX', 'C#/.Net', 'Microsoft-SQL-Server','Unit Testing','MicroServices'],
+		links: {
+			github: 'https://github.com/ameedasmah/BAuthorPublisherMicroService',
+			github: 'https://github.com/ameedasmah/BookAPMicroService'
+		}
+	},
+	{
+		image:
+			'https://media.discordapp.net/attachments/762704922474840094/873649257817714720/Capture12.PNG?width=1238&height=587',
+		title: 'Twitter',
+		des:
+			"Full Stack Application using the python Django in the backend, react and redux in the frontend, you can create your own Tweets, Twitter user follow other users. If you follow someone you can see their tweets on your home page, you can see all user’s Tweets on Explore page, you can add like, comments, and bookmark other tweets, and you can search on other people's profile.",
+		tags: ['React', "Redux", "Django", "Djoser", "Cloudinary", "Api"],
+		links: {
+			launch: 'https://tweeeeeter.herokuapp.com/home',
+			github: 'https://github.com/ameedasmah/Tweetler.git'
+		}
+	},
 	{
 		image:
 			'https://media.discordapp.net/attachments/763317063266729986/793144962908815380/unknown.png?width=1025&height=471',
@@ -11,30 +35,6 @@ let project_list = [
 			github: 'https://github.com/ameedasmah/OnlineSchoolSystem'
 		}
 	},
-	{
-		image:
-			'https://media.discordapp.net/attachments/763317063266729986/793145544268578816/unknown.png?width=911&height=473',
-		title: 'HotelCom',
-		des:
-			"A MERN-stack project that allows you use a hotels API prewiring the hotels of a specific city and country and being able to add it toBookmarks and add favorites, and in the profile page you will be able to make payments throw Stripe API, there also authentication and authorization using JWT and hashing the password using bcrybt.",
-		tags: ['nodejs', "ReactJ", "Express", "mongoDb", "jwt", "Api"],
-		links: {
-			launch: 'https://raptors-hotels.herokuapp.com/',
-			github: 'https://github.com/ameedasmah/green-field-project'
-		}
-	},
-	{  /* -------------------------------- */
-		image:
-			'https://media.discordapp.net/attachments/762737273128353841/792798697003548732/Capture11.png?width=833&height=473',
-		title: 'Laflefne',
-		des:
-			"MERN Stack Application with JWT authentication letting users to see the places in Palestine, and to book a trip, the users who want to book the same trip can make  chat with each other. ",
-		tags: ['React', 'Express', 'mongoDb', 'Nodejs'],
-		links: {
-			launch: 'https://laflefne.herokuapp.com/',
-			github: 'https://github.com/ameedasmah/laflefne'
-		}
-	},
 	{/* -------------------------------- */
 		image:
 			'https://media.discordapp.net/attachments/763317063266729986/793141749849522186/unknown.png?width=1025&height=472',
@@ -43,7 +43,6 @@ let project_list = [
 			"A MERN-Stack project that allows you to send the data and save it database using MongoAtlas,  It's appear in front-end page.In this project I used  React in front-end and I used material Ui in Design",
 		tags: ['React', 'Express', 'mongoDb', 'CSS'],
 		links: {
-			// launch: 'https://faizhameed.github.io/landing-page2/.',
 			github: 'https://github.com/ameedasmah/whatsapp_challenge'
 		}
 	},

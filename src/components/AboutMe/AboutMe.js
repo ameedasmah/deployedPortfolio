@@ -27,8 +27,7 @@ const AboutMe = () => {
           <h3>I am a Full stack web developer.</h3>
           <p>
             Creating Beautiful things with quality and elegance! <br />
-            Experienced in React and Python. My favourite technology is
-            ReactJS
+            Experienced in React and ASP.NET
           </p>
         </div>
       </div>
